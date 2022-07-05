@@ -66,7 +66,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [ "http://localhost:8080"]
+CORS_ALLOWED_ORIGINS = [ "http://localhost:8080", "https://wristowners.herokuapp.com"]
 
 ROOT_URLCONF = 'conf.urls'
 
