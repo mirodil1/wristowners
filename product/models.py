@@ -59,23 +59,23 @@ class Product(models.Model):
     
     def get_image(self):
         if self.image:
-            return 'https://wristownersbackend.herokuapp.com' + self.image.url
+            return self.image.url
     
     def get_image1(self):
         if self.image1:
-            return 'https://wristownersbackend.herokuapp.com' + self.image1.url
+            return self.image1.url
     
     def get_image2(self):
         if self.image2:
-            return 'https://wristownersbackend.herokuapp.com' + self.image2.url
+            return self.image2.url
     
     def get_image3(self):
         if self.image3:
-            return 'https://wristownersbackend.herokuapp.com' + self.image3.url
+            return self.image3.url
 
     def get_image4(self):
         if self.image4:
-            return 'https://wristownersbackend.herokuapp.com' + self.image4.url
+            return self.image4.url
             
 
 class FAQ(models.Model):
